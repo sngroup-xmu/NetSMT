@@ -4,7 +4,7 @@ This project is a prototype implementation of the SMT formula simplification par
 Linghe Kong, Yutong Liu, Jiwu Shu. "Network Can Help Check Itself: Accelerating SMT-based Network
 Configuration Verification Using Network Domain Knowledge", INFOCOM'24
 
-The guided-SMT solving part of NetSMT can be found [here]().
+The guided-SMT solving part of NetSMT can be found [here](https://github.com/FangStars/z3_network_guided).
 
 
 ## Introduction
