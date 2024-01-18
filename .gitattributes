@@ -1,0 +1,7 @@
+* text eol=lf
+*.sln text eol=crlf
+*.jar binary
+*.class binary
+*.zip binary
+*.png binary
+/tests/parsing-tests/networks/unit-tests/configs/ios_banner_dos binary
