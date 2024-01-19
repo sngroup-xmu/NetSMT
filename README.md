@@ -99,7 +99,7 @@ get smt-benchmark benchmark=true, networkType=0, topologyPath="wan/default/cogen
 - We skip the forwarding verification of disturbed networks, since its verification in this case is highly similar to reachability. However, you can still verify it with our code.
 
 ### BiNode source code
-We modify [BiNode](https://github.com/xiaozheshao/BiNode/tree/binode_ebgp) to introduce the guidance and simplification techniques and take it as one of the baseline of DCN verification, the source code can be found in `binode` branch.
+We modify [BiNode](https://github.com/xiaozheshao/BiNode/tree/binode_ebgp) to introduce the guidance techniques and take it as one of the baseline of DCN verification, the source code can be found in `binode` branch.
 
 ## Contact
 - Xing Fang (xing.fang.xmu@outlook.com)
