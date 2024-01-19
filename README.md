@@ -1,5 +1,5 @@
 # NetSMT: Guided-SMT solving
-This project is a prototype implementation of the SMT formula simplification part of [NetSMT]():
+This project is a prototype implementation of the SMT formula simplification part of [NetSMT](https://sngroup.org.cn/work/pdf/NetSMT-INFOCOM24.pdf):
 > Xing Fang, Feiyan Ding, Bang Huang, Ziyi Wang, Gao Han, Rulan Yang, Lizhao You, Qiao Xiang,
 Linghe Kong, Yutong Liu, Jiwu Shu. "Network Can Help Check Itself: Accelerating SMT-based Network
 Configuration Verification Using Network Domain Knowledge", INFOCOM'24
@@ -54,8 +54,9 @@ Below, we provide an overview of the functionalities introduced by these modific
 - **/minesweeper/smt/Optimizations.java:** Implement unrelated configuration pruning and variable abstraction,
   and fix the bug of Minesweeper.
 - **/minesweeper/smt/TransferSSA.java:** Implement unrelated Configurations pruning and variable abstraction.
+- **/minesweeper/smt/PropertyChecker.java:** Implement benchmark function.
 - **/minesweeper/question/SmtBenchmarkPlugin.java:** interface to run benchmark function.
-- **/minesweeper/question/PropertyChecker.java:** Implement benchmark function.
+- **/minesweeper/Graph.java:** generate topology file used by Z3.
 
 ## Evaluation
 ### Dataset
@@ -98,7 +99,7 @@ get smt-benchmark benchmark=true, networkType=0, topologyPath="wan/default/cogen
 - We skip the forwarding verification of disturbed networks, since its verification in this case is highly similar to reachability. However, you can still verify it with our code.
 
 ### BiNode source code
-We modify [BiNode](link) to introduce the guidance and simplification techniques and take it as one of the baseline of DCN verification, the source code can be found in `binode` branch.
+We modify [BiNode](https://github.com/xiaozheshao/BiNode/tree/binode_ebgp) to introduce the guidance and simplification techniques and take it as one of the baseline of DCN verification, the source code can be found in `binode` branch.
 
 ## Contact
 - Xing Fang (xing.fang.xmu@outlook.com)
