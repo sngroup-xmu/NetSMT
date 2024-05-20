@@ -35,6 +35,8 @@ a newer version or one with additional guideline instructions, you can follow th
 
 **NOTE**: Lower versions of Z3 are not recommended as they may cause type errors in Minesweeper.
 
+**NOTE**: Please make sure that you have the executable permission for the z3 binary file. If not, you can use the `sudo chmod +x Z3_BIN_PATH` command to add the executable permission.
+
 ### Run & Debug
 1. Clone project.
 2. Enter the project directory, and run `mvn –f pom.xml package`.
